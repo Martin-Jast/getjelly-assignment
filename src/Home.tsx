@@ -28,7 +28,6 @@ const Card = styled.a`
 
 function Home() {
   const [search, setSearch]: [Hero[], Function] = useState([]);
-  console.log(search);
   return (
     <div className="App">
       <header className="App-header">
